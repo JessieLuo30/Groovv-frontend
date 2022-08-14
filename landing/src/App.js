@@ -27,6 +27,7 @@ import pp2 from './img/pp2.svg';
 function App() {
 	return (
 		<div className="flex flex-col relative">
+			{/* header */}
 			<div className="z-30 bg-[#5CB2B8] h-[80px] flex flex-row text-white gap-16 items-center justify-center font-semibold font-[18px] fixed w-full">
 				<div className="w-[6%]">
 					<img src={logoGray} className="scale-[80%]" />
@@ -37,6 +38,7 @@ function App() {
 				<div className="w-[170px] border-2 text-center py-1 h-[40px] rounded-[10px]">Login</div>
 			</div>
 
+			{/* banner */}
 			<div className="bg-[url('./img/bg.svg')] mt-[80px] bg-no-repeat bg-cover h-[580px] flex flex-row text-[#222A26] text-[56px] font-bold px-40 items-center justify-center">
 				<div className="w-[60%] mt-[-50px]">
 					<div className="h-[65px]">What does your</div>
@@ -52,6 +54,7 @@ function App() {
 				</div>
 			</div>
 
+			{/* iphone */}
 			<div className="bg-[#BBC06B] flex flex-row bg-opacity-70 h-[400px] items-center justify-center px-2 text-white">
 				<div className="w-[52%] flex flex-col gap-3 px-20">
 					<div className="text-[32px] font-black text-left">Retire by 35,</div>
@@ -67,8 +70,10 @@ function App() {
 				</div>
 			</div>
 
+			{/* placeholder */}
 			<div className="h-[40px]" />
 
+			{/* icons */}
 			<div className="bg-[#5EB5B9] gap-8 py-16 bg-opacity-50 flex flex-col items-center justify-center ">
 				<div className="h-[38%]">
 					<img src={iconsUpper} />
@@ -130,7 +135,9 @@ function App() {
 						<div className="text-[#BFBFBF] text-[64px] h-[60px]">"</div>
 						<div>
 							I am just explaining Groovv to my coworder. Before I even finished explaining the idea, she
-							said '<b><em>wow, that's exactly what my son needs</em></b>
+							said '<b>
+								<em>wow, that's exactly what my son needs</em>
+							</b>
 							. He has about $100K saved up but talks about how he doesn't know how to invest it.'
 						</div>
 						<div className="text-[#BFBFBF] text-[64px] h-[60px] text-right">"</div>
@@ -142,7 +149,10 @@ function App() {
 					<div className="text-left flex flex-col text-[20px] w-[70%]">
 						<div className="text-[#BFBFBF] text-[64px] h-[60px]">"</div>
 						<div>
-							I looked at Groovv and <b><em>it's a great idea</em></b>
+							I looked at Groovv and{' '}
+							<b>
+								<em>it's a great idea</em>
+							</b>
 							. In fact, I just had a conversation with some one about investing in crpto today.
 							Increasing one's financial literacy takes time and effort. The average person lacks the
 							tools to make sound longptern financial decisions.
